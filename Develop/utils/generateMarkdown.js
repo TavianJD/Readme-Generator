@@ -59,6 +59,10 @@ ${data.credits}
 
 ${renderLicenseSection(data.licenses)}
 
+## Questions
+* Email: ${data.email}
+* GitHub: ${data.github}
+
 `;
 }
 

@@ -1,9 +1,9 @@
-# Run Buddy
+# README Generator
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)]
 
 ## Description
 
-Helps you find your suited personal trainer 
+Sample AS A developer
 
 ## Table of Contents
 
@@ -17,18 +17,22 @@ Helps you find your suited personal trainer
 
 ## Installation
 
-npm i inquirer
+sample text
 
 ## Usage
 
- pull the repo from github to your local computer, npm i inquirer and run node index.js to start the app
+install node, install vs code, run npm install, install inquirer
 
 ## Credits
 
-Brian - @BrianGerety
+
 
 
 ## License
     
       This project is licensed under the MIT license
+
+## Questions
+Email: tavianjdawson123@gmail.com
+GitHub: TavianJD
 
