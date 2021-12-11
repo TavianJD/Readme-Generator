@@ -39,7 +39,7 @@ const questions = [
     {
         type: "input",
         name: "credits",
-        message: "Any collaborators, if so list them."
+        message: "Any collaborators, if so list them with links to GitHub profiles."
     },
     {
         type: "list",
@@ -60,7 +60,7 @@ function init() {
 inquirer.prompt(questions) 
 
 .then((userInput) =>{
-    writeToFile("Readme.md", generateMarkdown({...userInput}))
+    writeToFile("README.md", generateMarkdown({...userInput}))
 })
 }
 

@@ -32,6 +32,12 @@ function generateMarkdown(data) {
   return `# ${data.Project}
   ${renderLicenseBadge(data.licenses)}
 
+## Description
+
+${data.description}
+
+## Table of Contents
+
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
@@ -46,6 +52,9 @@ ${data.Install}
 
 ${data.Usage}
 
+## Credits
+
+${data.credits}
 
 
 ${renderLicenseSection(data.licenses)}
